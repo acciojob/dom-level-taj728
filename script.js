@@ -6,6 +6,4 @@ while(temp){
 	level++;
 	temp=temp.parentElement;
 }
-let p= document.createElement("p");
-p.textContent=`The level of the element is: ${level}`
-body.append(p);
+alert(`The level of the element is: ${level}`)
